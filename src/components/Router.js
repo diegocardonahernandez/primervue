@@ -2,13 +2,19 @@ import {createRouter, createWebHistory} from "vue-router"
 import HomeComponent from './HomeComponent.vue'
 import CineComponent from './CineComponent.vue'
 import MusicaComponent from './MusicaComponent.vue'
+import CicloVida from './CicloVida.vue'
+import DirectivasComponent from './DirectivasComponent.vue'
+import ParImpar from './ParImpar.vue'
 
 //NECESITAMOS UN ARRAY CON LAS RUTAS A NAVEGAR
 
 const myRoutes = [
     {path: "/", component: HomeComponent},
     {path: "/musica", component: MusicaComponent},
-    {path: "/cine", component: CineComponent}
+    {path: "/cine", component: CineComponent},
+    {path: "/ciclovida", component: CicloVida},
+    {path: "/directivas", component: DirectivasComponent},
+    {path: "/parimpar", component: ParImpar}
 ]
 
 // CREAMOS UNA VARIABLE PARA EL ROUTER INDICANDO EL TIPO DE NAVGEACIÓN Y LAS RUTAS

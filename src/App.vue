@@ -3,7 +3,6 @@
   <div>
     <h1 style="color:blue">Elemento Estático</h1>
     <MenuComponent/> 
-    <hr>
    <router-view></router-view>
   </div>
 </template>
