@@ -17,8 +17,12 @@
                 <router-link class="link" to="/musica">MUSICA |</router-link>
             </li>
             <li>
-                <router-link class="link" to="/parimpar">PAR O IMPAR</router-link>
+                <router-link class="link" to="/parimpar">PAR O IMPAR |</router-link>
             </li>
+            <li>
+                <router-link class="link" to="/propiedadesconmutadas">PROPIEDADES CONMUTADAS |</router-link>
+            </li>
+            <li><router-link class="link" to="/filters">FILTERS</router-link></li>
         </ul>
     </div>
 </template>

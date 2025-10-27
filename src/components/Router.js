@@ -5,6 +5,8 @@ import MusicaComponent from './MusicaComponent.vue'
 import CicloVida from './CicloVida.vue'
 import DirectivasComponent from './DirectivasComponent.vue'
 import ParImpar from './ParImpar.vue'
+import PropiedadesConmutadas from './PropiedadesConmutadas.vue'
+import MetodosFilter from './MetodosFilters.vue'
 
 //NECESITAMOS UN ARRAY CON LAS RUTAS A NAVEGAR
 
@@ -14,7 +16,9 @@ const myRoutes = [
     {path: "/cine", component: CineComponent},
     {path: "/ciclovida", component: CicloVida},
     {path: "/directivas", component: DirectivasComponent},
-    {path: "/parimpar", component: ParImpar}
+    {path: "/parimpar", component: ParImpar},
+    {path: "/propiedadesconmutadas", component: PropiedadesConmutadas},
+    {path: "/filters", component: MetodosFilter}
 ]
 
 // CREAMOS UNA VARIABLE PARA EL ROUTER INDICANDO EL TIPO DE NAVGEACIÓN Y LAS RUTAS
